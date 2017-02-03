@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Lily+Script+One");
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 0;
+  background: #F4C8C8;
+  min-height: 100vh;
+  position: relative; }
+  @media (max-width: 768px) {
+    body {
+      font-size: 0.7em; } }
+  @media (min-width: 768px) {
+    body {
+      font-size: 0.7em;
+      line-height: 1.65; } }
+  @media (min-width: 1024px) {
+    body {
+      font-size: 0.9em;
+      line-height: 1.8; } }
+  @media (min-width: 1366px) {
+    body {
+      font-size: 1.1em; } }
+  @media (min-width: 1600px) {
+    body {
+      font-size: 1.2em; } }
+  @media (min-width: 1920px) {
+    body {
+      font-size: 1.3em; } }
+  @media (min-width: 2560px) {
+    body {
+      font-size: 1.6em; } }
+  @media (max-width: 650px) {
+    body {
+      font-size: 0.8em; } }
+
+.fa {
+  color: salmon; }
+
+h1, h3, h4, h5, h6, p, a, hr, ul, li {
+  color: maroon;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+   }
+
+h2{
+  color: maroon;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lily Script One', cursive;
+  font-size: 12em;
+
+}
+
+a, ul, li {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  outline: 0;
+  font-weight: 200; }
+  a:hover, a:focus, a:active {
+    color: maroon; }
+
+header .social-icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  padding: 1em 0; }
+  header .social-icons a {
+    color: maroon;
+    font-size: 1em;
+    font-family: 'Lily Script One', cursive;
+    border-bottom: 0.15em solid maroon;
+    transition: all 0.3s ease-in-out;
+    margin-right: 1.5em; }
+    header .social-icons a:hover {
+      color: salmon;
+      border-bottom: 0.15em solid salmon; }
+  header .social-icons .active {
+    color: maroon;
+    border-bottom: 0.15em solid maroon; }
+    header .social-icons .active:hover {
+      color: salmon;
+      border-bottom: 0.15em solid salmon; }
+
+.body-content {
+  width: 100%; }
+  .body-content .main-section {
+    padding: 1em 5% 0;
+    background: #F4C8C8;
+    position: relative; }
+  .body-content .info-content {
+    width: 85%;
+    margin: auto;
+    text-align: center; }
+    .body-content .info-content h1 {
+      font-size: 3em;
+      font-weight: bold;
+      font-family: 'Lily Script One', cursive; }
+    .body-content .info-content p {
+      font-size: 1.1em;
+      line-height: 2;
+      padding: 0.7em 0 2.5em; }
+    .body-content .info-content p a {
+      color: salmon;
+      font-family: 'Lily Script One', cursive;
+      font-style: normal;
+      transition: all 0.3s ease-in-out; }
+      .body-content .info-content p a:hover {
+        border-bottom: 0.1em solid salmon; }
+
+
+footer {
+  display: -ms-flexbox;
+  display: flex;
+  background: maroon;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  footer p {
+    margin:  0.5em;
+    color: #d7e6eb; }
